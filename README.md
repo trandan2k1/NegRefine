@@ -115,10 +115,11 @@ Our code is built on the excellent work of [CSP](https://github.com/MengyuanChen
 If you find this work useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{ansari2025negrefine,
+@inproceedings{ansari2025negrefine,
   title={NegRefine: Refining Negative Label-Based Zero-Shot OOD Detection},
   author={Ansari, Amirhossein and Wang, Ke and Xiong, Pulei},
-  journal={arXiv preprint arXiv:2507.09795},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={573--582},
   year={2025}
 }
 ```
