@@ -5,7 +5,7 @@ import clip
 from PIL import Image
 from tqdm import tqdm
 
-IMAGE_DIR = "/kaggle/input/imagenet-mini-1000-torch-mobilenet"
+IMAGE_DIR = "/kaggle/input/imagenetmini-1000"
 
 OUTPUT_CSV = "image_features.csv"
 
