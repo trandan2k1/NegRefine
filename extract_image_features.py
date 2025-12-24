@@ -9,7 +9,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 model.eval()
 
-IMAGE_DIR = "/kaggle/input/imagenet-mini"
+IMAGE_DIR = "/kaggle/input/imagenet-mini-1000-torch-mobilenet"
 OUTPUT_CSV = "image_features.csv"
 
 with open(OUTPUT_CSV, "w", newline="") as f:
